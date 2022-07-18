@@ -1,0 +1,33 @@
+1. 线程池  
+
+class ITask
+{
+  virtual void RunTask() = 0;
+}
+
+
+class MyTask:public
+{
+  virtual void RunTask();
+}
+
+信号量  
+
+
+2. 网络模型  
+
+同步 异步
+1. select
+2. 事件选择模型 event select
+3. 异步选择模型 Async select
+4. IOCP 
+
+libevent libuv asio epoll
+
+
+作业：
+  把tcp聊天室服务器改成异步模型。
+
+
+
+
